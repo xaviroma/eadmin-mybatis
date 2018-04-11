@@ -3,9 +3,9 @@ package es.fpdual.eadmin.eadmin.mapper;
 import org.apache.ibatis.annotations.Param;
 import es.fpdual.eadmin.eadmin.modelo.Documento;
 
-public interface documentoMapper {
+public interface DocumentoMapper {
 	
-	void insertarDocumento (@Param("documento") Documento documento);
+	int insertarDocumento (@Param("documento") Documento documento);
 	
 	//es/fpdual/eadmin/eadmin/mapper
 }
