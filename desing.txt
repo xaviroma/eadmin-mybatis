@@ -1,0 +1,10 @@
+ELEMENTO BASE ADMINISTRACION ELECTRONIC
++codigo NUMBER(12) obligatorio
++nombre VARCHAR
++fechaCreacion DATE
++fechaUltimaActualizacion DATE
++publico NUMBER(1)
+
+DOCUMENTO
++estado NUMBER(1)
+
